@@ -1,0 +1,53 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
+  <TemplateData>
+    <Name>I9.Api</Name>
+    <Description>I9.Api</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ResourceName</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <SolutionFolder Name="I9.$safeprojectname$">
+        <ProjectTemplateLink ProjectName="I9.$safeprojectname$.Api">
+          I9.Resource.Api\I9.Resource.Api.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="I9.$safeprojectname$.Api.Tests">
+          I9.Resource.Api.Tests\I9.Resource.Api.Tests.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="I9.$safeprojectname$.Business">
+          I9.Resource.Business\I9.Resource.Business.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="I9.$safeprojectname$.Business.Tests">
+          I9.Resource.Business.Tests\I9.Resource.Business.Tests.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="I9.$safeprojectname$.Data">
+          I9.Resource.Data\I9.Resource.Data.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="I9.$safeprojectname$.Data.Tests">
+          I9.Resource.Data.Tests\I9.Resource.Data.Tests.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="I9.$safeprojectname$.Common">
+          I9.Resource.Common\I9.Resource.Common.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="I9.$safeprojectname$.Interfaces">
+          I9.Resource.Interfaces\I9.Resource.Interfaces.vstemplate
+        </ProjectTemplateLink>
+      </SolutionFolder>
+     </ProjectCollection>
+    <folder>
+      
+    </folder>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>VSWizard, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=bfed4b15b1465481</Assembly>
+    <FullClassName>VSWizard.RootWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

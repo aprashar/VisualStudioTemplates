@@ -1,0 +1,9 @@
+D:\Temp\CustomVSWizard\VSWizard\VSWizard\bin\Release\VSWizard.dll
+D:\Temp\CustomVSWizard\VSWizard\VSWizard\bin\Release\VSWizard.pdb
+D:\Temp\CustomVSWizard\VSWizard\VSWizard\obj\Release\VSWizard.dll
+D:\Temp\CustomVSWizard\VSWizard\VSWizard\obj\Release\VSWizard.pdb
+C:\MyProjects\Learning\CustomVSWizard\CustomVSWizard\VSWizard\VSWizard\bin\Release\VSWizard.dll
+C:\MyProjects\Learning\CustomVSWizard\CustomVSWizard\VSWizard\VSWizard\bin\Release\VSWizard.pdb
+C:\MyProjects\Learning\CustomVSWizard\CustomVSWizard\VSWizard\VSWizard\obj\Release\VSWizard.dll
+C:\MyProjects\Learning\CustomVSWizard\CustomVSWizard\VSWizard\VSWizard\obj\Release\VSWizard.pdb
+C:\MyProjects\Learning\CustomVSWizard\CustomVSWizard\VSWizard\VSWizard\obj\Release\VSWizard.csprojResolveAssemblyReference.cache
