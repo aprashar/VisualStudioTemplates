@@ -4,9 +4,9 @@ using System.Linq;
 using System.Net.Http;
 using System.Web.Http;
 using Newtonsoft.Json.Serialization;
-using I9.$safeprojectname$.Api.DependencyResolver;
+using I9.$resource$.Api.DependencyResolver;
 
-namespace I9.$safeprojectname$.Api
+namespace I9.$resource$.Api
 {
     public static class WebApiConfig
     {
@@ -24,7 +24,7 @@ namespace I9.$safeprojectname$.Api
                 defaults: new {id = RouteParameter.Optional }
             );
 
-            I9.Resource.Api.DependencyResolver.DependencyResolver.Initialize(config);
+            I9.$resource$.Api.DependencyResolver.DependencyResolver.Initialize(config);
         }
     }
 }

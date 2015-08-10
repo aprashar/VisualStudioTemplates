@@ -1,13 +1,14 @@
-﻿using I9.$reource$.Common;
-using I9.$reource$.Business;
-using I9.$reource$.Interfaces;
+﻿using I9.$resource$.Common;
+using I9.$resource$.Business;
+using I9.$resource$.Interfaces;
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
-using I9.Resource.Data;
+using I9.$resource$.Data;
+using I9.$resource$.Api.DependencyResolver;
 
 namespace I9.$resource$.Api.DependencyResolver
 {

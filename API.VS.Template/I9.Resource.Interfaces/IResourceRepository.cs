@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace I9.$resource$.Interfaces
 {
-    public class I$resource$Repository
+    public interface I$resource$Repository
     {
     }
 }

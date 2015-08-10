@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Http.Dependencies;
 using Microsoft.Practices.Unity;
 
-namespace I9.Resource.Api.DependencyResolver
+namespace I9.$resource$.Api.DependencyResolver
 {
     public class UnityDependencyResolver : IDependencyResolver
     {

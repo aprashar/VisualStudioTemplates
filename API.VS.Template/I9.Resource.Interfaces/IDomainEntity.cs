@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace I9.$resource$.Interfaces
 {
-    public class IDomainEntity
+    public interface IDomainEntity
     {
     }
 }

@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>$safeprojectname$</RootNamespace>
     <AssemblyName>$safeprojectname$</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -43,7 +43,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\I9.Resource.Interfaces\I9.$resource$.Interfaces.csproj">
+    <ProjectReference Include="..\I9.$resource$.Interfaces\I9.$resource$.Interfaces.csproj">
       <Project>{a4a91421-15a6-42fd-948a-1efc9d8ebf25}</Project>
       <Name>I9.$resource$.Interfaces</Name>
     </ProjectReference>

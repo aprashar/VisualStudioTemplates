@@ -1,4 +1,4 @@
-﻿using I9.$Resource$.Interfaces;
+﻿using I9.$resource$.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

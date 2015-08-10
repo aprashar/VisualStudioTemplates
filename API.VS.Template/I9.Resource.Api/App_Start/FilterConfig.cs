@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Http.Filters;
 
-namespace I9.Resource.Api
+namespace I9.$resource$.Api
 {
     public class FilterConfig
     {

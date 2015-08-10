@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Routing;
 
-namespace $safeprojectname$
+namespace I9.$resource$.Api
 {
     public class WebApiApplication : System.Web.HttpApplication
     {
@@ -13,7 +13,7 @@ namespace $safeprojectname$
         {
             
             GlobalConfiguration.Configure(WebApiConfig.Register);
-            FilterConfig.RegisterGlobalFilters(GlobalConfiguration.Configuration.Filters);
+            //FilterConfig.RegisterGlobalFilters(GlobalConfiguration.Configuration.Filters);
             
         }
     }
